@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(data)
       end
       if new_hash[name][categories].contain?(category) == false
         new_hash[name][categories] << category
+      end 
     end
 end
 end 
