@@ -14,6 +14,8 @@ def nyc_pigeon_organizer(data)
         new_hash[name][categories] << category
       end 
 end 
+end
+end 
 pp new_hash
 end 
 
