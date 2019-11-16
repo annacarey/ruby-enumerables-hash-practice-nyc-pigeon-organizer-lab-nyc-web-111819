@@ -3,10 +3,11 @@ def nyc_pigeon_organizer(data)
   data.each do |categories, values|
     values.each do |category, names|
       names.each do |name|
-      if new_hash.contain? (name)
-        key = names
+      if new_hash.contain?(name)
+        new_hash[name] = {}
       end 
     end 
-    p value
+    
   end 
 end
+end 
