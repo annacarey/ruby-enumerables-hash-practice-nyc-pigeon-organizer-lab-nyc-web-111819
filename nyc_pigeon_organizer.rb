@@ -10,11 +10,8 @@ def nyc_pigeon_organizer(data)
       end
       if new_hash[name].key?(category) == false
         new_hash[name][categories] = []
-      else 
-        p "we got to this"
-        p category
-        new_hash[name][categories] << category
       end 
+        new_hash[name][categories] << category
     end
 end
 end 
