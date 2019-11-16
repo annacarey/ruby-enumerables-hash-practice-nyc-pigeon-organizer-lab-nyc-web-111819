@@ -8,10 +8,10 @@ def nyc_pigeon_organizer(data)
       if new_hash.key?(name) == false
         new_hash[name] = {}
       end
-      if new_hash[name].key?(category) == false
+      if new_hash[name].key?(categories) == false
         new_hash[name][categories] = []
-      end 
-        p category
+      end
+      
     end
 end
 end 
