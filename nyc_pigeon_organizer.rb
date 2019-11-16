@@ -7,7 +7,9 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
       if new_hash.key?(name) == false
         new_hash[name] = {}
-      end 
+      end
+      if new_hash[name].key?(category) == false
+        new_hash[name][categories] = category
   end 
 end
 end 
