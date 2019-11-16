@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
       else 
         new_hash[name] = {}
       end 
+      new_hash[names][categories] = category
     end 
   end 
 end
