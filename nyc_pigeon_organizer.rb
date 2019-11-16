@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  data.reduce ({}) do |new_pigeons, (key, value)|
+  data.each ({}) do |new_pigeons, (key, value)|
     value.each do |color, names|
       if new_pigeons.key?(names)
         key = names
