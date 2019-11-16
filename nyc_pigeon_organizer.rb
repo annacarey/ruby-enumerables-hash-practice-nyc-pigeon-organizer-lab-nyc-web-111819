@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
-  
-  data.each ({}) do |new_pigeons, (key, value)|
+  new_hash = {}
+  data.each do |categories, |
     value.each do |color, names|
       if new_pigeons.key?(names)
         key = names
