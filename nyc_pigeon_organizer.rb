@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
       binding.pry
       if new_hash.key?(name)
+        new_hash[
       else 
         new_hash[name] = {}
       end 
