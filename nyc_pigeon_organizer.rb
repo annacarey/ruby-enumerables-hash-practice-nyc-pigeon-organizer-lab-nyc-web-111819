@@ -8,8 +8,6 @@ def nyc_pigeon_organizer(data)
       binding.pry
       if new_hash.key?(name) == false
         new_hash[name] = {}
-      else 
-        
       end 
     #if new_hash[name].key?(category)
     ##  else 
